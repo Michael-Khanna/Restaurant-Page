@@ -1,0 +1,110 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+#content{
+    display: grid; 
+    place-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    display: grid;
+    background-color: salmon;
+    color: black;
+    min-height: 100px;
+    width: 100%;
+    height: 8vw;
+    place-items: center;
+    font-size: 6vw;
+    font-family: 'Faster One', cursive;
+}
+
+.about{
+    text-align: center;
+    width: 50%;
+    height: 900%;
+    background-color: white;
+    color: black;
+    margin: 25px;
+    height: auto;
+    font-size: 2vw;
+    clear: both;
+    border-radius: 10%;
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    background-color: aquamarine;
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.tabBtns{
+    background-color: salmon;
+    width: 100px;
+    font-size: 15px;
+}
+
+.info{
+    background-color: salmon;
+    color: black;
+    width: 50%;
+    height: 80vh;
+    font-size: 3vw;
+    text-align: center;
+    white-space: pre-wrap;
+    border-radius: 4%;
+    margin: 40px;
+    display: grid;
+    place-items: center;
+
+}
+
+.menuDiv{
+    margin: 3%;
+    background-color: salmon;
+    color: black;
+    width: 75vw;
+    height: 50vh;
+    display: grid;
+    grid-template-areas: 
+    "picture picture picture text text";
+    border-radius: 5%;
+}
+
+.menuPic{
+    width: 40vw;
+    margin: 1%;
+    height: 25vw;
+}
+
+.menuText{
+    grid-area: text;
+    text-align: center;
+    font-size: 2vw;
+    white-space: pre-wrap;
+}
+
+.picContainer{
+    grid-area: picture;
+    display: grid;
+    place-items: center;
+}
+
+.homePicture{
+    width: 75vw;
+    height: auto;
+    display: block;
+}
+
+.menuImg{
+    width: 70%;
+    height: auto;
+}
